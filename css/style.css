@@ -1,0 +1,135 @@
+body {
+        margin: 0;
+        padding: 0;
+      }
+
+.masthead{
+        color: white;
+        font-family: Roboto, helvetica, arial, sans-serif;
+        background-color: black;
+        background-image: url("../images/bkphoto6.jpg");
+        background-size: cover;
+}
+.portlet{
+    margin: auto;
+    max-width: 800px;
+}
+
+.portlet .list{
+	margin: 10px 10px 10px;
+    border: 0;
+    background-color: #1565C0;
+    box-shadow: 0 1px 2px #9E9E9E;
+}
+.masthead h2{
+	/*font-family: 'Stint Ultra Expanded', 'Helvetica Neue', Helvetica, sans-serif;*/
+	color:#F9F9F9;
+	text-shadow: 2px 2px #260f54;
+		font-weight: 200;
+        font-size: 60px;
+        line-height: 1em;
+        margin:0;
+	
+}
+.masthead h2:hover{
+	color: #455A64
+}
+.project{
+	background-color: #e9e9e9;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+        box-sizing: border-box;
+    padding: 20px;
+}
+.masthead h3{
+	vertical-align: text-top;
+	text-decoration: overline;
+	text-align: right;
+}
+.list li{
+list-style: none;
+text-align: center;
+}
+img{
+	width: 440px;
+	height: 300px;
+}
+img:hover{
+	visibility: hidden;
+}
+.content{
+	text-align: center;
+}
+
+@media screen and (max-width: 500px){
+	.masthead{
+
+	}
+}
+
+@media (min-width: 700px) {
+	.masthead{
+		padding: 20px 5%;
+	}
+
+	.image img{
+		    width: 30%;
+    margin: 1%;
+    box-sizing: border-box;
+ /*   border-radius: 50% 50%;*/
+    box-shadow: black 0px 0px 5px;
+	}
+	.content {
+    margin: auto;
+    max-width: 800px;
+}
+  .masthead h2 {
+    /*
+     * Styles for tablet size and larger here.
+     * Here is where you would overwrite any base styles that you want to change 
+     * for this breakpoint.
+     * Base styles are inherited here so no need to repeat formerly defined base 
+     * properties that will remain unchanged.
+     * Write these styles 2nd.
+     */
+     font-size: 5rem;
+  }
+  .list li{
+  	display: inline;
+  	float: left;
+  }
+  .portlet .list{
+  	float:none;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+
+}
+@media (min-width: 1024px) {
+	.masthead {
+		background-color:white;
+	}
+  .masthead h2 {
+    /*
+     * Styles for desktop size and larger here.
+     * Here is where you would overwrite your base and tablet-size styles
+     * that you want to change for this breakpoint.
+     * Base styles and your 700px breakpoint styles (your tablet styles) are inherited
+     * here so no need to repeat formerly defined properties that will remain unchanged.
+     * Write these styles 3rd.
+     */
+     font-size: 5rem;
+  }
+  .list li{
+  	display: inline-block;
+
+  }
+  .content{
+  	max-width: 69rem;
+  }
+  .image{
+  	width: 75rem;
+  }
+
+}

@@ -1,0 +1,14 @@
+.masthead{
+	text-align: center;
+	color: #260f54 !important;
+	background-color: white;
+	font:36px/60px Ultra, 'Arial Black', sans-serif;
+	text-shadow: 2px 2px #00848e;
+	background-image: url("../images/bkphoto2.jpg");
+}
+.masthead h2{
+	font-family: 'Stint Ultra Expanded', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#00848e !important;
+	text-shadow: 2px 2px #260f54;
+	
+}
