@@ -2,6 +2,21 @@ body {
         margin: 0;
         padding: 0;
       }
+      .navbar > .content{
+      	/*width: 970px;*/
+    height: 70px;
+    margin: 0 auto;
+      }
+.navbarList{
+	background-color: rgba(233, 233, 233, 1);
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+.navbarList li{
+	display: inline-block;
+	padding: 0 15px;
+}
 
 .masthead{
         color: white;
@@ -14,6 +29,8 @@ body {
     margin: auto;
     max-width: 800px;
 }
+
+
 
 .portlet .list{
 	margin: 10px 10px 10px;
@@ -55,8 +72,8 @@ img{
 	width: 440px;
 	height: 300px;
 }
-img:hover{
-	visibility: hidden;
+/*img:hover{
+	visibility: hidden;*/
 }
 .content{
 	text-align: center;
@@ -131,5 +148,8 @@ img:hover{
   .image{
   	width: 75rem;
   }
-
+  .navbarList{
+	background-color: rgba(249, 249, 249, 1);
+    font-size: 2rem;
+    padding: 26px;
 }
