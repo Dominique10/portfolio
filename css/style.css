@@ -126,12 +126,14 @@ img{
 .top-navigation .content li a{
 	transition: all .25s linear;
 }
-img:hover{
+a img:hover{
 	transition: all .25s linear;
 	border-style: outset;
 	border-color: lightgrey grey;
 	}
-img{
-	transition: all .25s linear;
+a img{
+	transition: all 1.25s linear;
+	border-style: outset;
+	border-color:black;
 	}
 }
