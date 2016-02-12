@@ -148,4 +148,12 @@ a img{
 	border-style: outset;
 	border-color:black;
 	}
+.socialIcon li{
+	width: 5.5rem;
+    height: 3.3rem;
+	}
+li a {
+    color: white;
+    font-size: 3rem;
+	}
 }
