@@ -3,11 +3,25 @@ html, body, ul {
   	margin:0;
 }
 
+<<<<<<< HEAD
+=======
+h1 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 2rem;
+}
+
+>>>>>>> gh-pages
 .top-navigation > .content {
     margin: 0 auto;
     background-color:grey;
     text-align: center;
     padding: .7em 0;
+<<<<<<< HEAD
+=======
+    font-size: 2rem;
+>>>>>>> gh-pages
 }
 .content ul{
 	list-style: none;
@@ -44,7 +58,11 @@ li a{
 }
 img{
 	width: 100%;
+<<<<<<< HEAD
 	height: 300px;
+=======
+	height: auto;
+>>>>>>> gh-pages
 	
 }
 
@@ -67,6 +85,7 @@ img{
 }
 .socialIcon .twitter{
     color: #55acee;
+<<<<<<< HEAD
 }
 
  @media (min-width: 700px){
@@ -78,6 +97,19 @@ img{
 	font-size: 2rem;
     padding: 2rem;
 }
+=======
+}
+
+ @media (min-width: 700px){
+.intro{
+ 	height: 100vh;
+ 	}
+.content li{
+	display: inline;
+	font-size: 2rem;
+    padding: 2rem;
+}
+>>>>>>> gh-pages
 .portlet{
     margin: 0 auto;
     width: 75%;
@@ -97,7 +129,11 @@ img{
 	}
 .projects .content{
 	margin: auto;
+<<<<<<< HEAD
     max-width: 800px;
+=======
+    max-width: 123em;
+>>>>>>> gh-pages
     text-align: center;
 	}
 
@@ -112,7 +148,11 @@ img{
 }
 .top-navigation .content:hover{
 	transition: all .25s linear;
+<<<<<<< HEAD
 	padding: 2.5em;
+=======
+	/*padding: 2.5em;*/
+>>>>>>> gh-pages
 }
 .top-navigation .content{
 	transition: all .25s linear;
@@ -120,18 +160,38 @@ img{
 
 .top-navigation .content li a:hover{
 	color: blue;
+<<<<<<< HEAD
 	font-size: 3rem;
 	transition: all .25s linear;
+=======
+	/*font-size: 3rem;*/
+	/*transition: all .25s linear;*/
+	border-style: solid;
+    border-bottom: thick black;
+    border-right: thick black;
+	border-left: thick black;
+>>>>>>> gh-pages
 }
 .top-navigation .content li a{
 	transition: all .25s linear;
 }
+<<<<<<< HEAD
 img:hover{
+=======
+a img:hover{
+>>>>>>> gh-pages
 	transition: all .25s linear;
 	border-style: outset;
 	border-color: lightgrey grey;
 	}
+<<<<<<< HEAD
 img{
 	transition: all .25s linear;
+=======
+a img{
+	transition: all 1.25s linear;
+	border-style: outset;
+	border-color:black;
+>>>>>>> gh-pages
 	}
 }
