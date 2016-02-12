@@ -194,4 +194,12 @@ a img{
 	border-color:black;
 >>>>>>> gh-pages
 	}
+.socialIcon li{
+	width: 5.5rem;
+    height: 3.3rem;
+	}
+li a {
+    color: white;
+    font-size: 3rem;
+	}
 }
