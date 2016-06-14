@@ -1,0 +1,215 @@
+html, body, ul {
+	padding:0;
+	margin:0;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: 0 0 .1em #ececec;
+  color: #ececec;
+  display: block;
+  margin-bottom: .4em;
+}
+
+h3 {
+  font-size: 4rem;
+  color: #d3c7a7;
+  text-align: center;
+  text-shadow: 3px 3px 0 #000;
+}
+
+
+.top-navigation > .content {
+  margin: 0 auto;
+  background-color:#26afb5;
+  text-align: center;
+  /*padding: .7em 0;*/
+  font-size: 2rem;
+}
+
+.content ul{
+	list-style: none;
+	font-family: 'Indie Flower', cursive;
+}
+li a{
+	color: white;
+}
+
+.intro{
+	background-image: url("../images/bkphoto2.jpg");
+	background-attachment: fixed;
+  opacity: 0.8; 
+	color:#0079bf;
+	text-shadow: 1px 1px black;
+}
+
+
+.portlet{
+	box-shadow: 1px 1px black;	
+}
+
+.blur{
+  /* background-image: url("../images/bkphoto2Full.jpg"); */
+  opacity: .4;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 14rem;
+  left: 13rem;
+  z-index: -2;
+}
+
+.information,.projects,.intro{
+	padding: 1em;
+	background-color: #26afb5;
+	background-size: cover;
+	border-bottom: solid;
+	height:100%;
+	color: white;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+}
+
+.titlePortlet{
+ 	text-decoration: underline;
+}
+
+img{
+	width: 100%;
+	height: auto;	
+}
+
+.image .portlet{
+	box-shadow: .1px .1px; 
+}
+.socialIcon{
+  list-style: none;
+  text-align: center; 
+}
+.socialIcon li{
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 1.1rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
+}
+.socialIcon .twitter{
+  color: #55acee;
+}
+
+#contact{
+	text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 100;
+}
+
+@media (min-width: 700px){
+	.intro{
+	 	height: 100vh;
+	 }
+	.content li{
+		display: inline;
+		font-size: 2rem;
+	  padding: 2rem;
+	}
+	.portlet::before{
+		background-image: url("../images/bkphoto2.jpg");
+		opacity: 0.4;
+	}
+	.portlet{
+	  margin: 0 auto;
+	  width: 75%;
+		font-size: 2rem;
+		height:100%;
+		box-shadow: none;
+		color: black;
+		background-color: white;
+	}
+	.portlet p{
+		margin-top: 1rem;
+	}
+	.portletText{
+		font-family: 'Source Sans Pro', Verdana, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 100;
+	}
+	.image img{
+		width: 30%;
+	  margin: 1%;
+	  box-sizing: border-box;
+	  box-shadow: black 0px 0px 5px;
+		}
+	.projects .content{
+		margin: auto;
+	  max-width: 123em;
+	  text-align: center;
+		}
+}
+
+@media (min-width: 1024px){
+	h1{
+		font-size: 12rem;
+	}
+	.intro{
+		background-image: url("../images/bkphoto23Full.jpg");
+	}
+	.portlet{
+		font-size: 3rem;
+	}
+	.top-navigation .content:hover{
+		transition: all .25s linear;
+		/*padding: 2.5em;*/
+	}
+	.top-navigation .content{
+		transition: all .25s linear;
+	}
+
+	.top-navigation .content li a:hover{
+		color: blue;
+		/*font-size: 3rem;*/
+		/*transition: all .25s linear;*/
+		border-style: solid;
+    border-bottom: thick black;
+    border-right: thick black;
+		border-left: thick black;
+	}
+	.top-navigation .content li a{
+		transition: all .25s linear;
+	}
+	a img:hover{
+		transition: all .25s linear;
+		border-style: outset;
+		border-color: lightgrey grey;
+		background-color: black;
+    opacity: .5;
+	}
+	a img{
+		transition: all 1.25s linear;
+		border-style: outset;
+		border-color:black;
+	}
+	.socialIcon li{
+		width: 5.5rem;
+    height: 3.3rem;
+	}
+	li a {
+    color: white;
+    font-size: 3rem;
+	}
+	#projectTitle {
+  	text-decoration: underline;
+  	font-size: 4rem;
+	}
+	#contact{
+    font-size: 3rem;
+	}
+
+}
